@@ -1,0 +1,14 @@
+O padrão de projeto SINGLETON é usado para definir a criação de um único objeto sobre uma classe,
+provendo o acesso global da mesma através desse ponto de singularidade como regra! Ou seja,
+não será possível a criação de um novo objeto. 
+
+Toda essa ideia pode ser aplicada em um exemplo de 'Gerenciamento de Sessões'. Imagine uma situação
+em que você e sua família têm acesso a um plano de assinatura de streaming, mas apenas uma sessão por
+usuário pode ser ativa ao mesmo tempo. Para garantir isso, pode-se utilizar o padrão Singleton para o
+gerenciamento das sessões, assegurando que, para cada usuário, apenas uma instância de sessão seja criada.
+Esse padrão ajuda a evitar que múltiplas instâncias sejam criadas indevidamente, garantindo que o sistema
+mantenha o controle sobre a quantidade de acessos simultâneos e evitando uma inflação de sessões ativas.
+
+
+ 
+
